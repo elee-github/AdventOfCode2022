@@ -18,7 +18,7 @@ def partialOverlap(elf1, elf2):
 round1Pairs = 0
 round2Pairs = 0
 
-with open("day4/day4input", "r") as file:
+with open("inputs/day4input", "r") as file:
     line = file.readline().strip()
     while line != "EOF":
         elf1, elf2 = line.split(',')

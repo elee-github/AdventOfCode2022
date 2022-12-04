@@ -1,4 +1,4 @@
-f = open("day1input", "r")
+f = open("inputs/day1input", "r")
 line = f.readline()
 cur_elf = 0
 elves = []

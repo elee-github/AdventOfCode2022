@@ -27,7 +27,7 @@ def part2(lines):
 part1ans = 0
 part2ans = 0
 
-with open("day3/day3input", "r") as file:
+with open("inputs/day3input", "r") as file:
     line = file.readline().strip()
     lineList = []
     lineCount = 0

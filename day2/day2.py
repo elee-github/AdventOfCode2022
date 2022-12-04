@@ -28,7 +28,7 @@ def pointsPart2(opp, you):
 round1Points = 0
 round2Points = 0
 
-with open("day2input", "r") as file:
+with open("inputs/day2input", "r") as file:
     line = file.readline().strip()
     while line != "EOF":
         match = line.split(" ")
