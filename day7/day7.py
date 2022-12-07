@@ -6,7 +6,6 @@ class Node:
         self.size = size
         self.is_directory = is_directory
 
-
     def child_with_name(self, name):
         for child in self.children:
             if child.name == name:
