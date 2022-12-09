@@ -18,12 +18,7 @@ def movement(hr, hc, tr, tc):
 
     if (tr, tc) in safe:
         return (tr, tc)
-    elif tr == hr:
-        return (tr, tc + cDir)
-    elif tc == hc:
-        return (tr + rDir, tc)
-    else:
-        return (tr + rDir, tc + cDir)
+    return (tr + rDir, tc + cDir)
 
 #part 1 vars
 part1Locs = set()
